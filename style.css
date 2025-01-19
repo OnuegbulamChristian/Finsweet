@@ -1,0 +1,77 @@
+/* nav-bar section css starts here */
+.nav-bar-section-div {
+  height: 13vh;
+  background-color: transparent;
+}
+.nav-bar-parent-div {
+  height: 13vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.nav-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.nav-bar-line {
+  width: 2px;
+  height: 4vh;
+  background-color: rgb(189, 188, 188);
+}
+.nav-links-div ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.nav-links-div ul li {
+  list-style: none;
+}
+.nav-contact-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-contact-div ul li {
+  list-style: none;
+}
+#call-icon {
+  font-size: larger;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+.nav-contact-div div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(112, 236, 112);
+  border-style: solid;
+  border-color: transparent;
+}
+/* nav-bar section css ends here */
+
+/* media queries over here */
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 834px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .nav-content-div {
+    display: none;
+  }
+  .nav-bar-parent-div {
+    padding-left: 20px;
+  }
+}
